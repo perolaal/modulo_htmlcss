@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="classe.css">
+    </head>
+    <body>
+
+        <div class="logo-container">
+            <div class="logo-icon">
+                <!-- SVG ou imagem da logo pode ser inserida aqui -->
+                <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" stroke="#800000" stroke-width="2"/>
+                    <circle cx="12" cy="12" r="6" stroke="#800000" stroke-width="2"/>
+                    <path d="M12 2V6" stroke="#800000" stroke-width="2"/>
+                    <path d="M12 18V22" stroke="#800000" stroke-width="2"/>
+                    <path d="M2 12H6" stroke="#800000" stroke-width="2"/>
+                    <path d="M18 12H22" stroke="#800000" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="logo-text">
+                VinumTech
+            </div>
+        </div>
+
+<a id="topo"></a>
+
+<a href="#topo" id="scrollTopBtn" title="Ir para o topo">Topo</a>
+
+<ul>
+    <li>Web design</li>
+    <li>Desenvolvimento</li>
+    <li>Hospedagem de sites</li>
+    
+</ul>
+<hr>
+        <div class="box">
+            <h2 style="text-align:center" id="sobre" >Informações</h2>
+            <div class="about-tab">
+                <input class ="label1"type="checkbox" id="about-toggle">
+                <label class="joanafirula" for="about-toggle">Sobre</label>
+                <div class="about-content">
+                    <p class = "corsobre">a vinumtech é destinada para ajudar qualquer pessoa seja vc 
+                        um amador curioso ou um entusiásta experiente, oferecemos
+                        cursos gratuitos de linguagens de programação mas se voce 
+                        esta disposto a tirar uns trocados do bolso te ensinamos o curso
+                        fechado de front-end, back end ou ate mesmo full stack dependendo 
+                        do q vc escolher, ficamos felizes em levar o conhecimento para outros
+                        lugares e mais felizes ainda em ajudar. </p>
+                </div>
+                <div class="toggle-tab">
+                    <input type="checkbox" id="toggle">
+                    <label class ="label1"for="toggle">Contato</label>
+                    <div class="toggle-content">
+                        <p class = "corsobre"> 
+                            endereço: av la ali, 17263189726 - cidade aq pertinho da pra ir a pe - breasil<br>
+                                telefone:(27984273)327863678432768674132<br>email: gwgfhwqfghqgfhweegh@gmail.com .</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <nav>
+    <div class="sidebar" id="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <hr>
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+        <a href="#">Cursos</a>
+        <a href="#menu"></a>
+        <hr>
+    </div>
+    <div class="main-content">
+        <button class="openbtn" onclick="openNav()">&#9776; </button> 
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("sidebar").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("sidebar").style.width = "0";
+        }
+    </script>
+        <div class="box2"> <h2>Cursos gratuitos</h2>
+        
+            <div class="sql">SQL</div>
+            <div class="html">HTML<br>< / ></div>
+            <div class="java">JAVA</div>
+            <div class="css"> CSS{}</div>
+            <div class="php">PHP</div>
+            <div class="javascript">JS()</div>
+            
+        
+        
+        </div>
+            <div >
+            <div class="form-container">
+                <h1 class="form-title">Quero adquirir o curso fechado</h1>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="course">Curso de Interesse</label>
+                        <select id="course" name="course" required>
+                            <option value="front-end">Desenvolvimento Front-End</option>
+                            <option value="back-end">Desenvolvimento Back-End</option>
+                            <option value="full-stack">Desenvolvimento Full-Stack</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Nos de mais detalhes</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Me inscreva!</button>
+                </form>
+            </div>
+        </nav> 
+        <main>
+           
+        </div>
+        </main>    
+      
+    </form>
+        <footer>
+            <details>A motivação acabou quando eu cheiguei em cursos gratuitos, oq ja tava ruim ficou pior, ja tinha um trilhão de coisas q eu nem sabia pra q serviam na e eu decidi ir dormir </details>
+    <hr>
+
+        <script src="" async defer></script>
+    </body>
+</html>
